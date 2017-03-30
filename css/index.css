@@ -3,16 +3,17 @@ html {
 }
 /*header styling*/
 /*TODO: make this responsive*/
-article div img, section div img {
+section div img {
     width: 200px;
     height: 200px;
 }
+
 header {
     border-bottom: 3px solid #7d97ad;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
-.container {
+.container, div {
     width: 100%;
 }
 .flex {
@@ -24,6 +25,7 @@ header {
 }
 #logo {
     text-align: left;
+    max-width: 100px;
 }
 #user {
     text-align: right;
@@ -44,6 +46,14 @@ h1, h3 {
 /*end of header section*/
 
 /*featured work section*/
+img {
+    width: 100%;
+}
+
+article div img {
+    width: 100%;
+    height: auto;
+}
 section div h2 {
     color: #7d97ad;
 }
