@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/thangthin/projects-portfolio/issues"
   },
-  "homepage": "https://github.com/thangthin/projects-portfolio#readme"
+  "homepage": "https://github.com/thangthin/projects-portfolio#readme",
+  "dependencies": {
+    "normalize.css": "^6.0.0"
+  }
 }
