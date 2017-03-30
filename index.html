@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Project Portfolio</title>
+    <!--google font styles-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100">
+    <!--normalize css-->
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <!--application specific css-->
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <!--top header-->
-    <header>
-        <div><img src="http://lorempixel.com/200/200/abstract/1" /></div>
-        <h1>FirstName LastName</h1>
-        <h3>FRONT-END NINJA</h3>
+    <header class="flex container">
+        <div id="logo"><img src="http://lorempixel.com/100/100/abstract/1" /></div>
+        <div id="user">
+            <h1>JANE DOETTE</h1>
+            <h3>FRONT-END NINJA</h3>
+        </div>
     </header>
     <!--main content-->
     <main>
         <!--cover section-->
-        <section>
+        <section class="cover">
             <div>
                 <img src="img/create.jpeg" alt="create">
             </div>
         </section>
         <!--featured work section-->
-        <section>
+        <section class="featured-work">
             <div>
                 <h2>Featured Work</h2>
             </div>
-            <article>
-                <div>
-                    <img src="img/laptop.jpeg" alt="laptop">
-                </div>
-                <div>
-                    title
-                </div>
-                <div>
-                    link
-                </div>
-            </article>
-            <article>
-                <div>
-                    <img src="img/mobile.jpeg" alt="mobile">
-                </div>
-                <div>
-                    title
-                </div>
-                <div>
-                    link
-                </div>
-            </article>
-            <article>
-                <div>
-                    <img src="img/vr.jpeg" alt="virtual reality">
-                </div>
-                <div>
-                    title
-                </div>
-                <div>
-                    link
-                </div>
-            </article>
+            <div class="flex">
+                <article>
+                    <div>
+                        <img src="img/laptop.jpeg" alt="laptop">
+                    </div>
+                    <div>
+                        APPIFY
+                    </div>
+                    <div>
+                        https://github.com//udacity/Appify/
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <img src="img/mobile.jpeg" alt="mobile">
+                    </div>
+                    <div>
+                        SUNFLOWER
+                    </div>
+                    <div>
+                        https://github.com//udacity/Sunflower/
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <img src="img/vr.jpeg" alt="virtual reality">
+                    </div>
+                    <div>
+                        BOKEH
+                    </div>
+                    <div>
+                        https://github.com//udacity/Bokeh/
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
 </body>
+
 </html>

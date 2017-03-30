@@ -1,0 +1,25 @@
+{
+  "name": "projects-portfolio",
+  "version": "1.0.0",
+  "description": "udacity project portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thangthin/projects-portfolio.git"
+  },
+  "keywords": [
+    "project-portfolio"
+  ],
+  "author": "thang thin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thangthin/projects-portfolio/issues"
+  },
+  "homepage": "https://github.com/thangthin/projects-portfolio#readme",
+  "dependencies": {
+    "normalize.css": "^6.0.0"
+  }
+}
