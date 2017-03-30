@@ -1,3 +1,73 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
+/*header styling*/
+/*TODO: make this responsive*/
+article div img, section div img {
+    width: 200px;
+    height: 200px;
+}
+header {
+    border-bottom: 3px solid #7d97ad;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.container {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+#logo, #user {
+    width: 100%;
+}
+#logo {
+    text-align: left;
+}
+#user {
+    text-align: right;
+}
+.flex #user {
+    flex-direction: column;
+}
+h1, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#user h1 {
+    font-weight: normal;
+}
+#user h3 {
+    font-weight: bolder;
+}
+/*end of header section*/
+
+/*featured work section*/
+section div h2 {
+    color: #7d97ad;
+}
+article {
+    color: #2d3c49;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    font-weight: bolder;
+}
+/*the second div is for name of project*/
+article div:nth-child(2) { 
+    font-size: xx-large;
+}
+
+/*end of featured work section*/
+
+@media only screen and (max-width: 500px) {
+    /*cover section is removed for mobile*/
+    .cover {
+        display: none;
+    }
+
+    .featured-work .flex {
+        flex-direction: column;
+    }
+}
