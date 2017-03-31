@@ -107,14 +107,19 @@ article div:nth-child(2) {
     font-size: xx-large;
 }
 
-
-/*end of featured work section*/
-
 section div img {
     width: 100%;
     height: auto;
     max-height: 440px;
 }
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+
+/*end of featured work section*/
 
 @media only screen and (max-width: 500px) {
     /*cover section is removed for mobile*/
