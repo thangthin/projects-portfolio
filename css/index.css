@@ -1,57 +1,91 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 /*header styling*/
+
+
 /*TODO: make this responsive*/
+
 header {
     border-bottom: 3px solid #7d97ad;
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
-.container, div {
+
+.container,
+div {
     width: 100%;
 }
+
 .flex {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-#logo, #user {
+
+#logo,
+#user {
     width: 100%;
 }
+
 #logo {
     text-align: left;
-    max-width: 100px;
 }
+
+#logo i {
+    font-size: 57px;
+    width: 57px;
+    height: 57px;
+}
+
 #user {
     text-align: right;
 }
+
 .flex #user {
     flex-direction: column;
 }
-h1, h3 {
+
+h1,
+h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 #user h1 {
     font-weight: normal;
 }
+
 #user h3 {
     font-weight: bolder;
 }
+
+
 /*end of header section*/
 
+
 /*featured work section*/
+
 img {
     width: 100%;
 }
+
 article div img {
     width: 100%;
     height: auto;
 }
+
 section div h2 {
     color: #7d97ad;
 }
+
 article {
     color: #2d3c49;
     text-align: center;
@@ -63,18 +97,25 @@ article {
 }
 
 .featured-work div h2 {
-    padding:2%;
+    padding: 2%;
 }
+
+
 /*the second div is for name of project*/
-article div:nth-child(2) { 
+
+article div:nth-child(2) {
     font-size: xx-large;
 }
+
+
 /*end of featured work section*/
+
 section div img {
     width: 100%;
     height: auto;
     max-height: 440px;
 }
+
 @media only screen and (max-width: 500px) {
     /*cover section is removed for mobile*/
     .cover {
