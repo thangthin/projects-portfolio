@@ -107,7 +107,7 @@ article {
 section img {
     width: 100%;
     height: auto;
-    max-height: 440px;
+    /*TODO: change to img of height 400px */
 }
 
 .project-title {

@@ -28,7 +28,11 @@
     <main>
         <!--cover section-->
         <section class="cover">
-            <img src="img/create.jpeg" alt="create">
+            <picture>
+                <source srcset="img/create.jpeg" media="(max-width: 500px)">
+                <source srcset="img/create_crop.jpeg">
+                <img src="img/create_crop.jpeg" alt="create">
+            </picture>
         </section>
         <!--featured work section-->
         <section class="featured-work">
