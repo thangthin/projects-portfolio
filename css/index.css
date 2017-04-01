@@ -152,9 +152,13 @@ section img {
     margin: 15% auto;
     /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
+    border: 3px solid #02b3e4;
     width: 80%;
     /* Could be more or less, depending on screen size */
+}
+
+#modal-content-title {
+    border-bottom: 1px solid;
 }
 
 
