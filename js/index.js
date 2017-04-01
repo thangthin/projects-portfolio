@@ -31,11 +31,6 @@
     // set the modal content to the appropriate project detail
     [...document.querySelectorAll(".project-title")].forEach(
         (a) => {
-            // overwrite default behavior of empty anchor link click handler
-            a.addEventListener("click", (evt) => {
-                    evt.preventDefault();
-                })
-                //add the handler for animation
             a.addEventListener("click", toggleModal);
             a.addEventListener("click", setModalContent);
         }
