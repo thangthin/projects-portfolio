@@ -180,10 +180,6 @@ article div a {
 /*end of featured work section*/
 
 @media only screen and (max-width: 500px) {
-    /*cover section is removed for mobile*/
-    .cover {
-        display: none;
-    }
     .featured-work .flex {
         flex-direction: column;
     }
