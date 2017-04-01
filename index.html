@@ -28,48 +28,42 @@
     <main>
         <!--cover section-->
         <section class="cover">
-            <div>
-                <img src="img/create.jpeg" alt="create">
-            </div>
+            <picture>
+                <source srcset="img/create.jpeg" media="(max-width: 500px)">
+                <source srcset="img/create_crop.jpeg">
+                <img src="img/create_crop.jpeg" alt="create">
+            </picture>
         </section>
         <!--featured work section-->
         <section class="featured-work">
-            <div>
-                <h2>Featured Work</h2>
-            </div>
+            <h2>Featured Work</h2>
             <div class="flex">
                 <article>
-                    <div>
+                    <div class="image-container">
                         <img src="img/laptop.jpeg" alt="laptop">
                     </div>
-                    <div>
-                        <a href="#">APPIFY</a>
-                    </div>
-                    <div>
+                    <span class="project-title">APPIFY</span>
+                    <p>
                         https://github.com//udacity/Appify/
-                    </div>
+                    </p>
                 </article>
                 <article>
-                    <div>
+                    <div class="image-container">
                         <img src="img/mobile.jpeg" alt="mobile">
                     </div>
-                    <div>
-                        <a href="#">SUNFLOWER</a>
-                    </div>
-                    <div>
+                    <span class="project-title">SUNFLOWER</span>
+                    <p>
                         https://github.com//udacity/Sunflower/
-                    </div>
+                    </p>
                 </article>
                 <article>
-                    <div>
+                    <div class="image-container">
                         <img src="img/vr.jpeg" alt="virtual reality">
                     </div>
-                    <div>
-                        <a href="#">BOKEH</a>
-                    </div>
-                    <div>
+                    <span class="project-title">BOKEH</span>
+                    <p>
                         https://github.com//udacity/Bokeh/
-                    </div>
+                    </p>
                 </article>
             </div>
             <!-- The Modal -->
@@ -77,6 +71,7 @@
                 <!-- Modal content -->
                 <div class="modal-content">
                     <span class="close">&times;</span>
+                    <h2 id="modal-content-title"></h2>
                     <!-- project description -->
                     <p id="modal-content-detail">TODO: Remove this content</p>
                 </div>
