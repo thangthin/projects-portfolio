@@ -77,12 +77,16 @@ img {
     width: 100%;
 }
 
+p {
+    margin: 0;
+}
+
 article div img {
     width: 100%;
     height: auto;
 }
 
-section div h2 {
+section h2 {
     color: #7d97ad;
 }
 
@@ -100,26 +104,20 @@ article {
     padding: 2%;
 }
 
-
-/*the second div is for name of project*/
-
-article div:nth-child(2) {
-    font-size: xx-large;
-}
-
-section div img {
+section img {
     width: 100%;
     height: auto;
     max-height: 440px;
 }
 
-a:link,
-a:visited {
-    text-decoration: none;
+.project-title {
+    color: #2d3c49;
+    display: block;
+    font-size: xx-large;
 }
 
-article div a {
-    color: #2d3c49;
+.project-title:hover {
+    cursor: pointer;
 }
 
 
